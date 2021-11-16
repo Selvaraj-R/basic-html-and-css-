@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body
+{
+  background-image: url(bgc.png);
+  background-size: cover;
+}
+.aa
+{
+  margin: 0;
+  padding: 10px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  float: right;
+  background-color: #0A2558;
+}
+
+.calendar
+{
+  padding: 5px;
+  padding-bottom: 10px;
+  width: 320px;
+  height: auto;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.aa .calendar .poster
+{
+  width: 100%;
+  height: 225px;
+  background: url(bgc3.jpg);
+  background-size: cover;
+  border:2px solid #0A2558;
+}
+.aa .calendar .poster h3,
+.aa .calendar .poster h2,
+.aa .calendar .poster h4,
+{
+  margin: 10px;
+  padding: 10px;
+}
+
+.aa .calendar .poster h2,
+{
+  font-weight: 500;
+}
+.aa .calendar .date
+{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30px, 6fr));
+  grid-gap:10px;
+  box-sizing:
+}
+
+.aa .calendar .date .NUM
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  color: #0A2558;
+
+}
+.aa .calendar .date .NUM:hover
+{
+  background-color: black;
+  border-radius: 100px;
+  color: white;
+}
+
+.aa .calendar .date .day
+{
+  font-weight: 700;
+}
+.aa .calendar .date .day:first-child,
+.aa .calendar .date .NUM:nth-child(7n+1)
+{
+  color: red;
+}
+.aa .calendar .date .NUM:nth-child(7n+1):hover
+{
+  color: white;
+  background-color: black;
+}
+.aa .calendar .date .day:nth-child(7n),
+.aa .calendar .date .NUM:nth-child(7n)
+{
+  color:blue ;
+}
+
+.aa .calendar .date .NUM:nth-child(7n):hover
+{
+  color: white;
+  background-color: black;
+}
+.aa .calendar .date .NUM.active
+ {
+   color: white;
+  background: green;
+  border-radius: 24px;
+}
+.aa .calendar .date .NUM.active:hover
+{
+  color: white;
+  background-color: blue;
+}
+.aa .calendar .MONTH
+{
+  border: 2px solid black;
+  color: white;
+  background-color: #0A2558;
+  border-radius: 12px;
+
+}
+.aa .calendar .YEAR
+{
+  border: 2px solid black;
+  color: white;
+  background-color: #0A2558;
+  border-radius: 12px;
+}
+.square
+{
+  margin: 0;
+  padding: 10px;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  float: left;
+  background-color: #0A2558;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #0A2558;
+}
+
+li a
+ {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+ text-decoration: none;
+ font-size: 20px;
+}
+
+li a:hover {
+  background-color: #0A2590 ;
+  color: white;
+}
+
+.u2
+{list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0A2558;
+  top: 0;
+  width: 100%;
+}
+.u2 .y3
+{
+  float: right;
+  padding-right: 15%;
+}
+.y3 a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.y3 a:hover
+{
+  color: white;
+  background-color: red;
+}
+.im2
+{
+  padding: 5px;
+border-radius: 100px;
+}
